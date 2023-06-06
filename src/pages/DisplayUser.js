@@ -14,7 +14,7 @@ export default function UsersPage({ users }) {
         <th className="px-6 py-3 bg-gray-200 text-gray-700 font-bold uppercase">First Name</th>
         <th className="px-6 py-3 bg-gray-200 text-gray-700 font-bold uppercase">Last Name</th>
         <th className="px-6 py-3 bg-gray-200 text-gray-700 font-bold uppercase">Age</th>
-        <th className="px-6 py-3 bg-gray-200 text-gray-700 font-bold uppercase">Occupation</th>
+        <th className="px-6 py-3 bg-gray-200 text-gray-700 font-bold uppercase">occumation</th>
       </tr>
     </thead>
     <tbody>
@@ -23,7 +23,7 @@ export default function UsersPage({ users }) {
           <td className="px-6 py-4 whitespace-nowrap">{user.firstName}</td>
           <td className="px-6 py-4 whitespace-nowrap">{user.lastName}</td>
           <td className="px-6 py-4 whitespace-nowrap">{user.age}</td>
-          <td className="px-6 py-4 whitespace-nowrap">{user.occupation}</td>
+          <td className="px-6 py-4 whitespace-nowrap">{user.occumation}</td>
         </tr>
       ))}
     </tbody>
