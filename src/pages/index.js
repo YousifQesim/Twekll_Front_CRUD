@@ -77,7 +77,7 @@ export default function UserForm() {
 
       <div className="mb-4">
         <label className="block mb-2 font-bold text-gray-700" htmlFor="occumation">
-          occumation:
+        occupation:
         </label>
         <input
           className="w-full px-3 py-2 border border-gray-300 rounded"
